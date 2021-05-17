@@ -1,0 +1,109 @@
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
+a,h1, h2, h3, h4, h5, h6, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1{
+	font-size: 3em;
+	background-color: yellow;
+	padding: 2.5% 0;
+	font-weight: 800;
+	text-align: center;
+	color:#0A75BC;
+	font-family: 'Work Sans', sans-serif;
+}
+#txt-input{
+    width: 80%;
+    height: 20vh;
+    margin: 2% 0 2% 10%;
+    border: 3px solid khaki;
+    font-size:x-large;
+    padding: 2%;
+	border-bottom-right-radius: 15px;
+	font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    color: #231F20;
+}
+#btn-translate{
+    margin: 0 0 0 10%;
+    font-size: 1.35em;
+	font-family: 'Work Sans', sans-serif;
+	border: 2px solid whitesmoke;
+	background-color: #0A75BC;
+	color: #ffffff;
+	padding: 0.4em 1em;
+	border-bottom-right-radius: 12px;
+	transition: 0.4s;
+}
+#btn-translate:hover{
+	background-color: #ffffff;
+	color: #0A75BC;
+	border-color: #0A75BC;
+}
+#txt-output{
+		width: 80%;
+		height: 20vh;
+		margin: 2% 0 2% 10%;
+		border: 3px solid khaki;
+		font-size:x-large;
+		font-family: 'Work Sans', sans-serif;
+		padding: 2%;
+		background-color: transparent;
+		border-bottom-right-radius: 15px;
+		font-weight: 500;
+        color: #231F20;
+}
+footer{
+	font-size: 1.5em;
+	text-align: center;
+	background-color: yellow;
+	font-weight: 600;
+	padding: 3%;
+	margin: auto;
+	color: #231F20;
+	font-family: 'Work Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+	font-weight: 700;
+	color:#0A75BC;
+}
+a:hover{
+	text-decoration: underline;
+}
